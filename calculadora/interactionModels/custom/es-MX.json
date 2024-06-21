@@ -1,0 +1,141 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "que pedo",
+            "que onda",
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "la suma {numUno} mas {numDos}",
+            "suma {numUno} mas {numDos}",
+            "cuanto es {numUno} mas {numDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numTres",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numCuatro",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "la resta {numTres} menos {numCuatro}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numSiete",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numOcho",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "la multiplicacion de {numSiete} por {numOcho}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numCinco",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numSeis",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DividirIntent",
+          "samples": [
+            "divide {numCinco} entre {numSeis}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numNueve",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numDiez",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RaizCuadradaIntent",
+          "samples": [
+            "calcula la raíz cuadrada de {numNueve}",
+            "dame la raíz cuadrada de {numNueve}",
+            "cuál es la raíz cuadrada de {numNueve}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numOnce",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numDoce",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "PotenciaIntent",
+          "samples": [
+            "calcula {numOnce} a la {numDoce} potencia",
+            "dame {numOnce} a la potencia de {numDoce}",
+            "cuál es {numOnce} elevado a {numDoce} "
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "caculadora isai"
+    }
+  }
+}
